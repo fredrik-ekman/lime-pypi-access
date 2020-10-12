@@ -16,6 +16,7 @@ const repositories = [
     'limepkg-esign',
     'limepkg-survey-integration',
     'mtech-addon-shared',
+    'transactional-message-library',
 ]
 
 export default repositories;
