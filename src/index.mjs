@@ -32,8 +32,9 @@ const putReposToSecret = async (secret_name, repository_ids) =>
         });
 const repoIds = await Promise.all(repositories.map(getIdAndFullName));
 const configured_repos = mergeObjects(repoIds);
+const repo_count = Object.keys(configured_repos).length;
 
-console.log('Configured repositories:');
+console.log(`Configured repositories (${repo_count}):`);
 console.log(configured_repos);
 
 for (var secret_name of secret_names) {
@@ -42,10 +43,10 @@ for (var secret_name of secret_names) {
     console.log(current_repositories);
 }
 
-console.log('Updating secrets with configured repositories');
+console.log(`Updating secrets with configured repositories (${repo_count})`);
 for (var secret_name of secret_names) {
     const { status } = await putReposToSecret(secret_name, Object.values(configured_repos));
-    console.log(`${secret_name}: ${status}`);
+    console.log(`${secret_name} - Status: ${status}`);
 }
 
 console.log('Done');

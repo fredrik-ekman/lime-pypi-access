@@ -76,7 +76,7 @@ Example output:
 > lime-pypi-access@1.0.0 dev
 > source .env && GITHUB_ACTION=1 node ./src/index.mjs
 
-Configured repositories:
+Configured repositories (2):
 {
   'Lundalogik/solution-workorder': 303311048,
   'Lundalogik/limepkg-workorder': 268804070
@@ -88,9 +88,9 @@ Current repositories configured for secret TEST_SECRET:
 }
 Current repositories configured for secret TEST_SECRET_PASS:
 {}
-Updating secrets with configured repositories
-TEST_SECRET: 204
-TEST_SECRET_PASS: 204
+Updating secrets with configured repositories (2)
+TEST_SECRET - Status: 204
+TEST_SECRET_PASS - Status: 204
 Done
 
 ```
