@@ -13,6 +13,7 @@ const repositories = [
     'lime-project',
     'limepkg-credit-info',
     'limepkg-dynamic-checklist',
+    'limepkg-engage',
     'limepkg-esign',
     'limepkg-survey-integration',
     'mtech-addon-shared',
