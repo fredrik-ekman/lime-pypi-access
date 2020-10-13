@@ -12,7 +12,7 @@ const getIdAndFullName = async (name) => {
     const { data } = await getRepo(name);
     return toRepoIdAndName(data);
 };
-const mergeObjects = (objs) => objs.reduce((result, obj) => ({ ...result, ...obj }), {});
+const mergeObjects = (objs) => Object.assign({}, ...objs);
 const getCurrentReposFromSecret = async (secret_name) => {
     const { data } = await octokit.request(
         'GET /orgs/{org}/actions/secrets/{secret_name}/repositories',
