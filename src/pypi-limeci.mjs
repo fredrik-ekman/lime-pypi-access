@@ -22,6 +22,9 @@ const repositories = [
     'limepkg-survey-integration',
     'mtech-addon-shared',
     'transactional-message-library',
+    'lime-webclient',
+    'limepkg-merge',
+    'plugin-real-estate-publishing',
 ]
 
 export default repositories;
