@@ -25,6 +25,7 @@ const repositories = [
     'lime-webclient',
     'limepkg-merge',
     'plugin-real-estate-publishing',
+    'limepkg-intercom',
 ]
 
 export default repositories;
