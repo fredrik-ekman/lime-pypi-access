@@ -27,6 +27,7 @@ const repositories = [
     'plugin-real-estate-publishing',
     'limepkg-intercom',
     'lime-imagebaker',
+    'limepkg-helpdesk'
 ]
 
 export default repositories;
