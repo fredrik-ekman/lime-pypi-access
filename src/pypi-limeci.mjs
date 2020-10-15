@@ -26,6 +26,7 @@ const repositories = [
     'limepkg-merge',
     'plugin-real-estate-publishing',
     'limepkg-intercom',
+    'lime-imagebaker',
 ]
 
 export default repositories;
