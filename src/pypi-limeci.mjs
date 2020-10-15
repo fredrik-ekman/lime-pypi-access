@@ -11,23 +11,23 @@ const repositories = [
     'lime-crm',
     'lime-dynaconf-consul-loader',
     'lime-integration-tests',
+    'lime-imagebaker',
     'lime-newsletter',
     'lime-project',
+    'lime-webclient',
     'limepkg-consent',
     'limepkg-credit-info',
     'limepkg-dynamic-checklist',
     'limepkg-engage',
     'limepkg-esign',
     'limepkg-gdpr',
+    'limepkg-helpdesk',
+    'limepkg-intercom',
+    'limepkg-merge',
     'limepkg-survey-integration',
     'mtech-addon-shared',
-    'transactional-message-library',
-    'lime-webclient',
-    'limepkg-merge',
     'plugin-real-estate-publishing',
-    'limepkg-intercom',
-    'lime-imagebaker',
-    'limepkg-helpdesk'
+    'transactional-message-library'
 ]
 
 export default repositories;
