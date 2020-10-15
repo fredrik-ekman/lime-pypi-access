@@ -23,6 +23,7 @@ const repositories = [
     'limepkg-gdpr',
     'limepkg-helpdesk',
     'limepkg-intercom',
+    'limepkg-jira-integration',
     'limepkg-merge',
     'limepkg-survey-integration',
     'mtech-addon-shared',
