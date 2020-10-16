@@ -25,11 +25,11 @@ const repositories = [
     'limepkg-intercom',
     'limepkg-jira-integration',
     'limepkg-merge',
+    'limepkg-salesdemo',
     'limepkg-survey-integration',
     'mtech-addon-shared',
     'plugin-real-estate-publishing',
-    'transactional-message-library',
-    'limepkg-salesdemo'
+    'transactional-message-library'
 ]
 
 export default repositories;
